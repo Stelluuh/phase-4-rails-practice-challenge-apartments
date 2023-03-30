@@ -25,8 +25,6 @@ class TenantsController < ApplicationController
         head :no_content
     end
 
-
-
     private
 
     def find_tenant

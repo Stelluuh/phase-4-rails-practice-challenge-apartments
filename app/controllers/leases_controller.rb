@@ -20,6 +20,6 @@ class LeasesController < ApplicationController
     end
 
     def lease_params
-        params.permit(:rent)
+        params.permit(:rent, :tenant_id, :apartment_id)
     end
 end
